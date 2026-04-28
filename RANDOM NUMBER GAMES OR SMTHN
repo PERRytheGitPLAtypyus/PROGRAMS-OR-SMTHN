@@ -1,0 +1,27 @@
+import random
+p1=input("Enter smthn")
+p2=input("Enter smthn")
+s1=100
+s2=100
+d1=random.randint(1,10)
+d2=random.randint(1,10)
+print("!!!!! NUMERO UNO !!!!!")
+while(True):
+    g1=int(input("Enter a number"))
+    s1=s1-1
+    if g1==d1:
+        break
+print("!!!!! NUMERO DOS !!!!!")
+while(True):
+    g2=int(input("Enter a number"))
+    s2=s2-1
+    if g2==d2:
+        break
+print("{} {}".format(p1,s1))
+print("{} {}".format(p2,s2)) 
+if s1>s2:
+    print("{} wins".format(p1))
+elif s2>s1:
+    print("{} wins".format(p2))
+else:
+    print("It's a tie")               
