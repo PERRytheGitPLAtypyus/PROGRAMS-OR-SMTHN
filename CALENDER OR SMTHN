@@ -1,0 +1,4 @@
+from datetime import date
+a=date(2005,8,29)
+b=date(2026,4,28)
+print((b-a).days)
