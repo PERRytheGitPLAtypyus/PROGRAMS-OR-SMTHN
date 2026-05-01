@@ -1,0 +1,7 @@
+names=["Mark","Brock","Kurt","Vince","Punk","Randy","John","Chris","Edge","Rey"]
+wins=[18,98,99,11,82,76,88,91,85,80]
+p=1
+for i in range(10):
+    if wins[i]>75:
+        print("{}. {} has won {} times".format(p,names[i],wins[i]))
+        p+=1       
