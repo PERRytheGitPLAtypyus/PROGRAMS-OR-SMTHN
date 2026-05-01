@@ -1,0 +1,5 @@
+names=["Mark","Brock","Kurt","Vince","Punk","Randy","John","Chris","Edge","Rey"]
+wins=[[18,98,99,11],[82,76,88,91],[85,80,90,95],[70,72,68,74],[90,92,94,96],[60,65,70,75],[78,82,85,88],[80,85,90,95],[88,90,92,94],[95,98,99,100]]
+for i in range(10):
+    a=sum(wins[i])//4
+    print("{}. {} has an average of {} wins".format(i+1,names[i],a))
