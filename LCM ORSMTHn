@@ -1,0 +1,8 @@
+a=int(input("Enter the first number: "))
+b=int(input("Enter the second number: "))
+num=max(a,b)
+while True:    
+    if num%a==0 and num%b==0:
+        print("The LCM of",a,"and",b,"is",num)
+        break
+    num+=1
