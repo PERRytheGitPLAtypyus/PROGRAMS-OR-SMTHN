@@ -1,0 +1,30 @@
+def sqr():
+    a=int(input("Enter the side of square: "))
+    print("Area of square is: ",a*a)
+def rec(l):
+    b=int(input("Enter the breadth of rectangle: "))
+    print("Area of rectangle is: ",l*b)
+def tri():
+    h=int(input("Enter the height of triangle: "))
+    b=int(input("Enter the base of triangle: "))
+    print("Area of triangle is: ",0.5*h*b)
+def cir(r):
+    print("Area of circle is: ",22/7*r*r)                              
+
+while(True):
+    print("1.Square")
+    print("2.Rectangle")
+    print("3.Triangle")
+    print("4.Circle")
+    print("5.Exit")
+    a=int(input("Enter your choice: "))
+    if a==1:
+        sqr()
+    elif a==2:
+        rec(301)
+    elif a==3:
+        tri()
+    elif a==4:
+        cir(29)
+    else:
+        break    
