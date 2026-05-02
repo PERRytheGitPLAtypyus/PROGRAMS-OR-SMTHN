@@ -23,3 +23,23 @@ print(g.intersection(h)) #intersection of two sets
 print(g.union(h)) #union of two sets
 print(g|h) #union of two sets
 print(g&h) #intersection of two sets
+print(g^h) #symmetric difference of two sets
+print(g.symmetric_difference(h)) #symmetric difference of two sets
+print(g-h) #difference of two sets
+print(h-g) #difference of two sets
+print(g.difference(h)) #difference of two sets  
+print(h.difference(g)) #difference of two sets  
+print(g.issubset(h)) #check if g is subset of h
+print(h.issubset(g)) #check if h is subset of g
+print(g.issuperset(h)) #check if g is superset of h 
+print(h.issuperset(g)) #check if h is superset of g
+
+
+#Dictionaries are represented by {} and is mutable but it is unordered and does not allow duplicates and also does not support indexing
+a={"name":"MJF","age":30,"city":"new york"}
+for i in a.items():
+    print(i)
+for i in a.keys():
+    print(i)
+for i in a.values():
+    print(i)        
