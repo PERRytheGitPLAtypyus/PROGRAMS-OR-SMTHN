@@ -1,0 +1,8 @@
+#A=0 B=1 C=10 D=100 E=1000 F=10000 G TO Z=0
+#a="ABCAAAC" value of a=0+1+10+0+0+0+10=21 without using any loop or if statement
+a={"A":0,"B":1,"C":10,"D":100,"E":1000,"F":10000}
+b="ABCAAAC"
+c=0
+for i in b:
+    c=c+a[i]
+print(c)     
