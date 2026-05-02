@@ -1,0 +1,8 @@
+name=input("enter wrestlers name: ")
+sal=int(input("enter wrestlers salary: "))
+designation=input("enter wrestlers designation: ")
+# if designation=="Champion", tax= 20% of salary;designation="Contender", tax=15% of salary; desination=="Jobber", tax= 10% of salary; designation=="Rookie", tax= 5% of salary
+a={"Champion":0.2,"Contender":0.15,"Jobber":0.1,"Rookie":0.05}
+if designation in a:
+    tax=sal*a[designation]
+    print("{} is a {} and earns {} and has to pay {} in taxes".format(name, designation, sal, tax))
