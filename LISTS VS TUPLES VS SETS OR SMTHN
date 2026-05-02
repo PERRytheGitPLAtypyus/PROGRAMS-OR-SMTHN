@@ -16,4 +16,10 @@ print(type(d))
 print(type(e))
 print(type(f))
 d.add(6) #we can add elements to a set but not to a tuple
-print(d)        
+print(d)
+g={12,13,14,15,16}
+h={1,13,24,16,18}
+print(g.intersection(h)) #intersection of two sets
+print(g.union(h)) #union of two sets
+print(g|h) #union of two sets
+print(g&h) #intersection of two sets
