@@ -1,0 +1,37 @@
+#fucntions are a block of code which is used to perform some task it is of two types built in and user defined functions
+
+#there are 4 types of user defined functions 
+# 1)function without arguments and without return type 
+# 2)function with arguments and without return type 
+# 3)function without arguments and with return type 
+# 4)function with arguments and with return type
+
+#advantages of functions are 
+# code reusability 
+# modularity
+# better readability
+# better debugging
+#integration
+
+#two phases of implementing a function are
+# 1)function definition
+# 2)function call
+
+def a1():
+    n1=101
+    n2=202
+    print("The result of function without arguments and without return type is: ", n1+n2)
+def a2(n1,n2):
+    print("The result of function with arguments and without return type is: ", n1+n2)
+def a3():
+    n1=101
+    n2=202
+    return n1+n2
+def a4(n1,n2):
+    return n1+n2        
+a1()
+a2(1234,5678)
+r1=a3()
+print("The result of function without arguments and with return type is: ", r1)
+r2=a4(1234,5678)    
+print("The result of function with arguments and with return type is: ", r2)
