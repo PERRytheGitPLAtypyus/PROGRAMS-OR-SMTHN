@@ -43,3 +43,10 @@ for i in a.keys():
     print(i)
 for i in a.values():
     print(i)        
+a['wins']=67
+print(a)
+a['name']='Kenny Omega'
+print(a)
+a.pop('age') #removes the key 'age' and its value from the dictionary
+print(a)
+
