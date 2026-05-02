@@ -1,0 +1,19 @@
+#tuple is represented by () and is immutable not appendable
+t = (1, 2, 3, 4, 5)
+t=t+(100,56) #we can concatenate two tuples but we cannot change the existing tuple and supports indexing and slicing
+print(t)
+#set is represented by {} and is mutable but it is unordered and does not allow duplicates and also does not support indexing
+b=[1,4,1,2,2,3,3,4,5]
+s=set(b)
+print(s)
+c={1,4,1,2,2,3,3,4,5}
+for i in c:
+    print("hello")
+d={1,2,3,4,5}
+e=[1,2,3,4,5]
+f=(1,2,3,4,5)
+print(type(d))
+print(type(e))
+print(type(f))
+d.add(6) #we can add elements to a set but not to a tuple
+print(d)        
