@@ -1,0 +1,20 @@
+math = {'Tom', 'Jerry', 'Spike', 'Tyke'}
+political = {'Jerry', 'Spike', 'Butch', 'Nibbles'}
+science = {'Spike', 'Tyke', 'Nibbles', 'Quacker'}
+
+
+all_three = math & political & science
+
+math_poly = (math & political) - all_three
+poly_sci = (political & science) - all_three
+math_sci = (math & science) - all_three
+exactly_two = math_poly | poly_sci | math_sci
+
+
+all_students = math | political | science
+only_one = all_students - exactly_two - all_three
+
+# Results
+print(f"Only one Subject = {sorted(list(only_one))}")
+print(f"Exactly two subjects = {sorted(list(exactly_two))}")
+print(f"All subjects = {sorted(list(all_three))}")
