@@ -1,0 +1,20 @@
+class WWE:
+    def showbooker(self):
+        print("HHH is ruining WWE")
+class NXT(WWE):
+    def whobooker(self):
+        print("HBK is the savior of NXT")        
+class RAW(NXT):
+    def showgm(self):
+        print("ADAM P is the GM of RAW")
+a=WWE()
+a.showbooker()
+b=NXT()
+b.whobooker()
+c=RAW()
+c.showgm()
+c.showbooker()
+c.whobooker()
+
+
+
