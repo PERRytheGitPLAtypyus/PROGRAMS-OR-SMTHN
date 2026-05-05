@@ -1,0 +1,14 @@
+#simple inheritance:
+class WWE:
+    def showbooker(self):
+        print("HHH is ruining WWE")
+class NXT(WWE):
+    def whobooker(self):
+        print("HBK is the savior of NXT")        
+a=WWE()
+a.showbooker()
+b=NXT()
+b.whobooker()
+
+
+
