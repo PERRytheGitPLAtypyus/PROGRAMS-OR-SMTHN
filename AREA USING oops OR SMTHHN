@@ -1,0 +1,30 @@
+#constructor: creating an object with some value or dimension
+class Rect:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        print(self.length * self.width)
+
+class Circ:
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        print(3.14 * self.radius ** 2)
+
+class Sqr:
+    def __init__(self, s):
+        self.s = s
+
+    def area(self):
+        print(self.s ** 2)
+
+r=Rect(12,34)
+r.area()
+c=Circ(54)
+c.area()
+s=Sqr(23)
+s.area()
+
