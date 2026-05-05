@@ -1,0 +1,34 @@
+cunt="USA"
+class wwe:
+    comp="WWE"
+    def set_dim(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("1. THE NAME OF THE WRESTLER IS: ",self.name)
+        print("2. THE TOTAL WINS OF THE WRESTLER IS: ",self.tot)
+        print("3. THE COMPANY OF THE WRESTLER IS: ",wwe.comp)
+        print("4. THE COUNTRY OF THE WRESTLER IS: ",cunt) 
+class aew:
+    comp="AEW"
+    def giv_res(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def show(self):
+        print("2. THE NAME OF THE WRESTLER IS: ",self.name)
+        print("3. THE TOTAL WINS OF THE WRESTLER IS: ",self.tot)
+        print("4. THE COMPANY OF THE WRESTLER IS: ",aew.comp)
+        print("5. THE COUNTRY OF THE WRESTLER IS: ",cunt)
+
+th1=wwe()
+th2=wwe()
+tk1=aew()
+tk2=aew()
+th1.set_dim(89,71,91, "John Cena")
+th2.set_dim(90,72,92, "Roman Reigns")
+tk1.giv_res(88,70,90, "MJF")
+tk2.giv_res(89,71,91, "Jon Moxley")
+th1.display()
+th2.display()
+tk1.show()
+tk2.show()
