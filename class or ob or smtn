@@ -1,0 +1,14 @@
+#in the oops concept usage of both variable and methods by using object name(invoke)
+class mlk:
+    m="KMS"
+    def set_dim(self,x,y):
+        self.tot=x+y
+    def display(self):        
+        print("Total:", self.tot)
+        print(mlk.m)
+a=mlk()
+b=mlk()
+a.set_dim(123,456)
+b.set_dim(789,912)
+a.display()
+b.display()
